@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/knip@latest/schema.json",
+  "entry": ["src/index.ts", "rollup.config.js"],
+  "project": ["src/**/*.{ts,js}"],
+  "eslint": true,
+  "ignore": ["node_modules/**", "dist/**"],
+  "ignoreDependencies": ["@commitlint/cli", "@commitlint/config-conventional"]
+}
